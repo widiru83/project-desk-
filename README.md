@@ -8,6 +8,16 @@ Aplikasi desktop personal PMO & operasional modern berbasis **Electron + React 1
 
 ---
 
+## 🌐 Coba Langsung di Web (Interactive Web Demo — Bebas Login)
+
+Ingin mencoba seluruh fitur Project Desk v1.2.5 langsung di browser Anda tanpa perlu instalasi atau registrasi akun?  
+👉 **[Buka Pratinjau Interaktif Web Demo](https://widiru83.github.io/project-desk-demo/)**
+- ✨ **Zero Friction:** Tanpa login, langsung jelajahi Dashboard Portofolio, Gantt Chart CPM, Kurva S, WBS, Risiko, Biaya, dan Qwen AI Copilot.
+- 🔒 **Data Sovereignty:** Data tersimpan mandiri di `localStorage` peramban lokal Anda.
+- 🔄 **1-Click Reset:** Tersedia tombol Reset Demo jika ingin mengembalikan data ke kondisi awal kapan saja.
+
+---
+
 ## 📥 Unduh Rilis Resmi v1.2.5 (Dua Edisi Resmi)
 
 Aplikasi Project Desk v1.2.5 didistribusikan secara resmi dalam format **Clean Portable `.ZIP`** untuk menjamin **100% bebas dari deteksi palsu (*zero false positive*) antivirus**, tidak memerlukan instalasi administrator, dan seluruh database lokal tersimpan mandiri.
@@ -193,10 +203,22 @@ Dokumen resmi berikut tersedia dalam format plain text (`.txt`) dan dapat diundu
 
 ---
 
+## 💼 Kustomisasi Logo & Identitas Perusahaan (B2B Whitelabel)
+Aplikasi Project Desk dapat disesuaikan sepenuhnya untuk kebutuhan perusahaan atau organisasi Anda:
+- Mengganti logo perusahaan, nama aplikasi, dan identitas visual korporat (Whitelabeling).
+- Penyesuaian tema warna, mata uang, dan template laporan PMO sesuai standar internal perusahaan.
+- Setup mandiri untuk lingkungan internal kantor tanpa koneksi internet (*Air-gapped enterprise setup*).
+
+Untuk konsultasi kebutuhan dan penawaran biaya kustomisasi:
+- 📧 **Email:** `widi.raspito@outlook.com`
+- 🏷️ **Subject:** `[Inquiry] Kustomisasi Project Desk - [Nama Perusahaan]`
+
+---
+
 ## 📬 Kontak & Informasi Pengembang
 - **Pengembang:** WIDIRU STUDIO
 - **Email:** `widi.raspito@outlook.com`
-- **Website:** *Widiru Studio saat ini belum memiliki website resmi. Seluruh informasi rilis, dokumentasi resmi, dan kode sumber hanya dipublikasikan melalui repositori GitHub ini.*
+- **Web Interactive Demo:** [https://widiru83.github.io/project-desk-demo/](https://widiru83.github.io/project-desk-demo/)
 
 ---
 
