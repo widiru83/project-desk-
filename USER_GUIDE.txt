@@ -1,0 +1,342 @@
+================================================================================
+PROJECT DESK — PANDUAN PENGGUNA RESMI (USER GUIDE)
+Versi Aplikasi: 1.2.5 (Production Release — Standard & AI Copilot Editions)
+Tanggal Rilis : 20 November 2026 (Pemutakhiran Akbar: Qwen AI Copilot Edition)
+Pengembang    : Widiru Studio (Email: widi.raspito@outlook.com)
+Website Resmi : Belum ada website resmi (seluruh rilis resmi hanya via GitHub)
+Platform      : Windows 10/11 (Portable), macOS Apple Silicon (arm64), Linux (x64)
+Arsitektur    : 100% Offline-First Desktop PMO Suite (Native SQLite WAL)
+Standar Acuan : PMBOK Guide 6th Edition Fully Compliant
+================================================================================
+
+DAFTAR ISI:
+-----------
+1. TENTANG PROJECT DESK
+2. SPESIFIKASI MINIMUM PERANGKAT KERAS (DUA EDISI: STANDARD VS AI COPILOT)
+3. CARA INSTALASI & MENJALANKAN FILE ZIP PORTABLE (WINDOWS & MACOS)
+4. KEAMANAN & LOGIN PERTAMA KALI
+5. STRUKTUR & NAVIGASI APLIKASI
+6. MODUL 1: PROJECT OVERVIEW & PORTOFOLIO HELICOPTER VIEW
+7. MODUL 2: WORK BREAKDOWN STRUCTURE (WBS) & MANAJEMEN TUGAS
+8. MODUL 3: PENJADWALAN GANTT & CRITICAL PATH METHOD (CPM)
+9. MODUL 4: KURVA S EARNED VALUE MANAGEMENT (EVM)
+10. MODUL 5: MANAJEMEN BIAYA (COST MANAGEMENT & BUDGET BASELINE)
+11. MODUL 6: SERVICE LEVEL AGREEMENT (SLA) & PEMELIHARAAN RUTIN
+12. MODUL 7: MANAJEMEN RISIKO & MATRIKS 5X5
+13. MODUL 8: DOKUMEN PROYEK & GERBANG FASE (LIFECYCLE GATEWAYS)
+14. MODUL 9: KONTROL PERUBAHAN (CHANGE REQUESTS & CCB)
+15. MODUL 10: MANAJEMEN ASET & MASA BERLAKU KONTRAK
+16. MODUL 11: TIME TRACKING, WORKLOAD & UNIFIED LOGBOOK
+17. MODUL 12: DATA PORTABILITY, BACKUP & PEMULIHAN MANDIRI
+18. MODUL 13: ANALISIS AI STATIS (PMO HEURISTIC INTELLIGENCE)
+19. MODUL 14: PANDUAN LENGKAP QWEN AI COPILOT (EDISI COPILOT INTERAKTIF)
+20. PENGATURAN TAMPILAN, AKSEN WARNA & TIPOGRAFI
+21. TIPS PRAKTIS & PERTANYAAN UMUM (FAQ)
+
+================================================================================
+1. TENTANG PROJECT DESK
+================================================================================
+Project Desk adalah perangkat lunak desktop personal PMO (Project Management Office)
+yang dirancang untuk para Project Manager, Lead Engineer, Konsultan, dan Tim
+Operasional yang membutuhkan tata kelola proyek komprehensif berstandar internasional
+tanpa ketergantungan pada server cloud, langganan bulanan mahal, atau risiko kebocoran data.
+
+Prinsip Utama Project Desk:
+- 100% Offline: Seluruh data bisnis tersimpan dalam file SQLite di komputer Anda.
+- Zero Cloud Leakage: Tidak ada analitik pihak ketiga atau pengiriman data ke server luar.
+- Standar PMBOK 6th Edition: Integrasi penuh 10 Knowledge Areas.
+- Portabilitas Penuh: Berjalan langsung dari USB Flashdisk tanpa instalasi sistem.
+
+================================================================================
+2. SPESIFIKASI MINIMUM PERANGKAT KERAS (DUA EDISI RESMI)
+================================================================================
+
+Tersedia DUA PILIHAN EDISI RESMI pada rilis v1.2.5. Pengguna dapat memilih edisi
+yang paling sesuai dengan spesifikasi laptop dan kebutuhan kerja:
+
++----------------------+------------------------------------+---------------------------------------+
+| Spesifikasi          | 1. STANDARD EDITION                | 2. AI COPILOT EDITION (QWEN)          |
++----------------------+------------------------------------+---------------------------------------+
+| Fokus Penggunaan     | Ringan, Cepat, Minimalis           | Asisten Interaktif Cerdas (Chat LLM)  |
+| Mesin AI             | Heuristic Expert System (PMBOK)    | Hybrid Heuristic + Qwen2.5-1.5B LLM   |
+| Ukuran File          | ~105 MB – 118 MB (File .ZIP)       | ~1.2 GB – 1.3 GB (Bundled Model AI)   |
+| Sistem Operasi       | Windows 10/11 (64-bit)             | Windows 10/11 (64-bit)                |
+|                      | macOS 11+ (Intel & Apple Silicon)  | macOS 12+ (Apple Silicon M1-M4/Intel) |
+|                      | Linux 64-bit (Ubuntu/Debian/dll)   | Linux 64-bit (glibc 2.31+)            |
+| Prosesor (CPU)       | Min: Dual-Core 2.0 GHz             | Min: Quad-Core 2.5 GHz+ (M1/i5/Ryzen5)|
+|                      | Rek: Quad-Core 2.5 GHz             | Rek: 8-Core (Apple Silicon M-Series)  |
+| Memori RAM (MINIMUM) | MINIMUM: 4 GB RAM                  | MINIMUM: 8 GB RAM                     |
+| Memori RAM (REKOMEND)| REKOMENDASI: 8 GB RAM              | REKOMENDASI: 16 GB RAM                |
+| Ruang Harddisk       | 500 MB ruang kosong                | 3.0 GB ruang kosong                   |
+| Akses Internet       | 100% Offline (Tidak Butuh Internet)| 100% Offline On-Device (Zero Cloud)   |
+| Karakteristik Utama  | Cocok untuk laptop kantor standar, | Dilengkapi panel percakapan dua arah, |
+|                      | membuka dan mengeksekusi proyek    | draf surat resmi, dan dekomposisi WBS |
+|                      | secara instan dengan efisiensi RAM.| dengan model bahasa lokal terpasang.  |
++----------------------+------------------------------------+---------------------------------------+
+
+================================================================================
+3. CARA INSTALASI & MENJALANKAN FILE ZIP PORTABLE
+================================================================================
+Format resmi rilis Project Desk v1.2.5 adalah Clean Portable ZIP (.zip).
+Format ini tidak menjalankan ekstraktor dinamis sementara ke folder %TEMP%,
+sehingga 100% bebas dari pemblokiran atau kecurigaan antivirus (Zero False Positive),
+tidak memerlukan hak akses Administrator, dan menjaga registri sistem tetap bersih.
+
+A. CARA MENJALANKAN DI WINDOWS (Windows 10 / 11 64-bit):
+-------------------------------------------------------
+1. Unduh salah satu paket ZIP dari GitHub Releases:
+   - Standar   : "Project.Desk-1.2.5-win.zip" (~105 MB)
+   - AI Copilot: "Project.Desk-1.2.5-AI-win.zip" (~1.3 GB)
+2. Klik kanan pada file zip tersebut, pilih "Extract All..." (Ekstrak Semua).
+   Pilih folder tujuan yang Anda inginkan (misalnya di "D:\Apps\ProjectDesk"
+   atau langsung di dalam Flashdisk USB Anda).
+3. Buka folder hasil ekstraksi, cari file "Project Desk.exe", lalu klik ganda.
+4. Catatan Pertama Kali (Windows SmartScreen):
+   Jika muncul jendela biru "Windows protected your PC / Microsoft Defender SmartScreen":
+   - Klik tulisan "More info" (Info selengkapnya).
+   - Klik tombol "Run anyway" (Tetap jalankan).
+   *Hal ini wajar terjadi pada software open-source baru yang belum memiliki sertifikat
+    EV komersial berbayar ribuan dolar. Aplikasi sepenuhnya aman dan bersih.
+5. Selesai! Folder "project-desk-data" akan otomatis terbentuk di sebelah file exe
+   sebagai tempat penyimpanan database Anda.
+
+B. CARA MENJALANKAN DI MACOS (Apple Silicon M1 / M2 / M3 / M4 & Intel):
+----------------------------------------------------------------------
+1. Unduh salah satu paket ZIP dari GitHub Releases:
+   - Standar   : "Project-Desk-1.2.5-arm64-mac.zip" (~118 MB)
+   - AI Copilot: "Project-Desk-1.2.5-AI-arm64-mac.zip" (~1.3 GB)
+2. Klik ganda file zip untuk mengekstraknya di folder Downloads atau Applications.
+3. Catatan Pertama Kali (Apple Gatekeeper):
+   Karena aplikasi didistribusikan langsung via GitHub tanpa langganan Apple Developer
+   tahunan ($99/th), Gatekeeper mungkin menampilkan pesan:
+   "Project Desk can't be opened because Apple cannot check it for malicious software".
+   Cara Membuka (Cukup 1 Kali Saja):
+   - Buka Finder, klik kanan (atau Control + Klik) pada "Project Desk.app".
+   - Pilih "Open" (Buka).
+   - Pada dialog pop-up konfirmasi, klik tombol "Open".
+   - Selanjutnya, aplikasi dapat dibuka secara normal dengan klik ganda seperti biasa!
+
+================================================================================
+4. KEAMANAN & LOGIN PERTAMA KALI
+================================================================================
+Saat pertama kali membuka Project Desk:
+- Anda akan disambut layar Kunci Akun Lokal (Local Master Lock).
+- Pengguna Baru: Masukkan Display Name Anda dan tentukan Master Password baru.
+- Kredensial Bawaan Pabrik (Fresh Demo):
+  Username: admin
+  Password Default Awal: pmo2026password
+- KEAMANAN KETAT v1.2.5: Setelah Anda mengganti password baru, password default bawaan
+  OTOMATIS DITOLAK secara permanen oleh sistem. Akun Anda dilindungi hashing PBKDF2 100.000 iterasi.
+- Reset Percobaan: Gagal memasukkan password 5 kali akan memicu penundaan (lockout) otomatis.
+
+================================================================================
+5. STRUKTUR & NAVIGASI APLIKASI
+================================================================================
+Navigasi utama berada pada Sidebar sebelah kiri (dapat diciutkan/expand):
+- Portfolio Dashboard : Tampilan helikopter lintas proyek (multi-project).
+- Project Overview    : Ringkasan eksekutif kesehatan proyek aktif, Kurva S, & Finansial.
+- AI Copilot (Qwen)   : [BARU di v1.2.5] Asisten cerdas dua arah percakapan & auto-drafting.
+- Work Breakdown (WBS): Pohon dekomposisi hierarkis ruang lingkup (100% Rule).
+- Gantt Timeline      : Visualisasi batang jadwal dan Critical Path Method (CPM).
+- S-Curve & EVM       : Grafik kumulatif Planned Value (PV) vs Earned Value (EV).
+- Kanban Board        : Manajemen alur kerja visual berbasis kolom status.
+- Activity Logbook    : Jejak kronologis seluruh aktivitas operasional proyek.
+- Resource Allocation : Manajemen kapasitas personil dan pencegahan over-allocation.
+- Cost Management     : Pagu BAC, buku besar revisi, dan pencatatan biaya riil.
+- Change Requests     : Registrasi dan persetujuan formal dampak revisi (CCB).
+- Risk Register       : Identifikasi bahaya, skor keparahan, dan matriks 5x5.
+- Business Objectives : Sasaran strategis, indikator arah, dan realisasi manfaat.
+- Asset & Expiry      : Manajemen masa berlaku lisensi, garansi, dan sewa alat.
+- Project Documents   : Tautan cloud aman (Google Drive/SharePoint) & BAST deliverable.
+- Data & Backup       : Cadangan snapshot instan (VACUUM INTO) dan ekspor data CSV.
+- Settings            : Kustomisasi tema gelap/terang, aksen warna, dan ukuran font.
+
+================================================================================
+6. MODUL 1: PROJECT OVERVIEW & PORTOFOLIO HELICOPTER VIEW
+================================================================================
+- Portfolio Dashboard: Menyajikan 4 Kartu KPI Agregat (Total Proyek, Progres Rata-rata %,
+  Jumlah On-Track, dan Jumlah Terlambat), strip kesehatan finansial gabungan, serta
+  matriks filter multi-mode (Implementation, Operational, Hybrid).
+- Project Overview: Command Center untuk 1 proyek terpilih:
+  * Indikator Progres Berbobot Jam Kerja (Effort-Weighted Circular Ring).
+  * 4 Metrik Kunci: Task & Deliverables, Schedule Slippage (Overdue), Milestones, CPM.
+  * Rekonsiliasi Finansial 5 Kolom: BAC, Actual Cost (Labor + Non-Labor), EV, CV, dan CPI.
+  * Strip Tata Kelola: Dampak Change Request dan verifikasi BAST dokumen deliverables.
+  * Matriks Risiko 5x5 interaktif langsung di halaman depan.
+
+================================================================================
+7. MODUL 2: WORK BREAKDOWN STRUCTURE (WBS) & MANAJEMEN TUGAS
+================================================================================
+- Penomoran Otomatis Desimal: Kode WBS berjenjang (1, 1.1, 1.1.1, 1.2) dihitung otomatis.
+- Tombol Aksi Hierarki:
+  * Indent (Jadikan Subtask): Menjadikan tugas sebagai anak dari tugas di atasnya.
+  * Outdent (Naikkan Level): Memindahkan tugas ke level hierarki yang lebih tinggi.
+  * Move Up / Move Down: Menggeser urutan tugas dalam satu level.
+- Kalkulasi Roll-up Summary Otomatis: Tanggal mulai, tanggal selesai, total jam kerja,
+  dan persentase progres induk tugas otomatis dirangkum dari anak tugas terbawah (*leaves*).
+- Penanda Milestone 0 Hari: Mengunci durasi menjadi 0d dengan ikon bendera emas.
+- Penanda Unplanned: Menandai tugas dadakan di luar ruang lingkup awal tanpa merusak baseline.
+
+================================================================================
+8. MODUL 3: PENJADWALAN GANTT & CRITICAL PATH METHOD (CPM)
+================================================================================
+- Critical Path Method (CPM): Menghitung waktu paling awal (Early Start/Finish) dan paling
+  akhir (Late Start/Finish). Tugas di jalur terpanjang memiliki Total Float = 0 hari
+  dan ditandai garis merah menyala (Critical Tasks).
+- Dependensi Tugas: Mendukung relasi Finish-to-Start (FS) disertai tenggat jeda (*lag days*).
+- Deteksi Siklus Sirkular: Otomatis menolak relasi yang membentuk lingkaran tanpa henti (A->B->C->A).
+
+================================================================================
+9. MODUL 4: KURVA S EARNED VALUE MANAGEMENT (EVM)
+================================================================================
+- 3 Mode Tampilan Dinamis:
+  1. Cumulative S-Curve : Grafik garis kumulatif Planned Value (PV) vs Earned Value (EV).
+  2. Weekly Periodic Bar: Batang perbandingan jam kerja rencana vs realisasi per minggu.
+  3. Tabular Matrix     : Tabel mingguan komprehensif lengkap dengan delta dan persentase.
+- Penanda "TODAY": Garis vertikal merah membatasi realisasi aktual dengan proyeksi masa depan.
+- Metrik Otomatis: Schedule Variance (SV = EV - PV) dan Schedule Performance Index (SPI).
+
+================================================================================
+10. MODUL 5: MANAJEMEN BIAYA (COST MANAGEMENT & BUDGET BASELINE)
+================================================================================
+- Penetapan Pagu Anggaran (Set BAC): Menetapkan pagu baseline anggaran disetujui (BAC).
+- Cadangan Risiko & Overhead: Input cadangan kontingensi (%) dan markup operasional.
+- Buku Besar Revisi (Revision Ledger): Setiap revisi anggaran tercatat kronologis (#1, #2, dst).
+- Fleksibilitas Basis Tarif: Pilihan tarif Per Jam (Hourly), Per Hari (Daily), atau
+  Biaya Borongan Tetap (Fixed Contract Cost) untuk subkontrak/vendor pihak ketiga.
+- Soft Delete & Audit Trail: Menghapus transaksi biaya wajib menyertakan alasan pembatalan.
+  Data tersimpan di tab "Riwayat Dibatalkan / Soft Delete" dan dapat dipulihkan kapan saja.
+
+================================================================================
+11. MODUL 6: SERVICE LEVEL AGREEMENT (SLA) & PEMELIHARAAN RUTIN
+================================================================================
+- Manajemen Tiket Layanan: Penanganan insiden dan tiket operasional dengan durasi SLA.
+- Jeda Jam Operasional: Menghitung SLA bersih berdasarkan jam kerja kalender resmi.
+- Tugas Berulang (Recurring): Penjadwalan otomatis tiket pemeliharaan preventif berkala.
+
+================================================================================
+12. MODUL 7: MANAJEMEN RISIKO & MATRIKS 5X5
+================================================================================
+- Siklus CRUD Lengkap: Tambah risiko baru, Edit parameter, Hapus dengan konfirmasi,
+  dan ganti status cepat (IDENTIFIED, ANALYZED, MITIGATING, MONITORING, CLOSED).
+- Matriks Heatmap 5x5: Memetakan probabilitas (1-5) vs dampak (1-5) ke dalam kategori
+  Low (Hijau), Medium (Kuning), High (Oranye), dan Extreme (Merah).
+- Nilai Moneter EMV: Expected Monetary Value = Probabilitas Numerik (%) x Dampak Biaya (IDR).
+
+================================================================================
+13. MODUL 8: DOKUMEN PROYEK & GERBANG FASE (LIFECYCLE GATEWAYS)
+================================================================================
+- Penyimpanan Tautan Cloud Aman: Menghubungkan Google Drive, SharePoint, Dropbox, GitHub.
+- Verifikasi Deliverables (BAST): Menandai dokumen sebagai serah terima fisik dengan status
+  DRAFT, SUBMITTED, UNDER_REVIEW, atau ACCEPTED lengkap dengan nama pihak penyetujui.
+
+================================================================================
+14. MODUL 9: KONTROL PERUBAHAN (CHANGE REQUESTS & CCB)
+================================================================================
+- Registrasi Permintaan Perubahan (CR): Nomor urut otomatis, ruang lingkup yang diubah,
+  estimasi dampak hari (*schedule impact*), dan estimasi penambahan biaya (*cost impact*).
+- Persetujuan Dewan Kontrol (CCB): Alur status PENDING -> APPROVED / REJECTED.
+
+================================================================================
+15. MODUL 10: MANAJEMEN ASET & MASA BERLAKU KONTRAK
+================================================================================
+- Inventaris Aset Proyek: Pencatatan hardware, software, server, dan fasilitas penunjang.
+- Tanggal Kewajiban Majemuk: 1 aset dapat memiliki beberapa tenggat tanggal terpisah
+  (Garansi, Lisensi Lisensi Tahunan, Kontrak Sewa) dengan status Active, Warning, Expired.
+
+================================================================================
+16. MODUL 11: TIME TRACKING, WORKLOAD & UNIFIED LOGBOOK
+================================================================================
+- Tombol Mulai Timer Langsung: Ikon stopwatch di Header atas untuk mencatat durasi kerja live.
+- Log Kerja Manual: Pencatatan durasi menit dan konversi otomatis ke biaya jam kerja (labor cost).
+- Deteksi Over-allocation: Peringatan visual jika anggota tim memegang beban melebihi kapasitas.
+- Unified Logbook: Buku catatan terpadu untuk merekam kronologi kejadian operasional.
+
+================================================================================
+17. MODUL 12: DATA PORTABILITY, BACKUP & PEMULIHAN MANDIRI
+================================================================================
+- Snapshot VACUUM INTO: Cadangan database mandiri (.sqlite3) tanpa mengunci aplikasi.
+- Validasi Pemulihan Staging: Backup rusak otomatis ditolak sebelum menyentuh data aktif.
+- Ekspor CSV Terproteksi: Bersih dari ancaman formula injection saat dibuka di Excel.
+
+================================================================================
+18. MODUL 13: ANALISIS AI STATIS (PMO HEURISTIC INTELLIGENCE)
+================================================================================
+- Tersedia di Project Overview & Portfolio Dashboard.
+- Evaluasi Heuristik PMBOK Cepat: Menghasilkan Skor Kesehatan Proyek (0-100), narasi
+  eksekutif, tantangan kritis, dan solusi taktis dalam 1 klik (10 milidetik).
+
+================================================================================
+19. MODUL 14: PANDUAN LENGKAP QWEN AI COPILOT (EDISI COPILOT INTERAKTIF)
+================================================================================
+Modul ini merupakan keunggulan utama pada Project Desk v1.2.5 AI Copilot Edition.
+Didukung model bahasa lokal **Qwen2.5-1.5B PMO**, Anda memiliki asisten PMO senior
+yang siap berdiskusi kapan saja secara cerdas:
+
+A. CARA MENGAKSES COPILOT:
+   - Klik menu "AI Copilot (Qwen)" di Sidebar sebelah kiri.
+   - Atau klik tombol pintas "💬 Tanya Qwen Copilot →" dari layar Project Overview.
+
+B. CARA KERJA 100% OFFLINE ON-DEVICE:
+   - Mesin AI berjalan murni menggunakan prosesor & memori laptop Anda.
+   - Tidak memerlukan koneksi internet, tidak perlu registrasi akun luar, dan
+     tidak ada biaya langganan bulanan.
+   - Seluruh rahasia anggaran, nama klien, dan strategi WBS tersimpan aman di komputer.
+
+C. 6 TOPIK CEPAT SIAP KLIK (QUICK PROMPT CHIPS):
+   Di bagian bawah layar percakapan, tersedia tombol cepat untuk memicu analisis instan:
+   1. [Ringkasan Eksekutif & Health Check]: Analisis menyeluruh SPI, CPI, BAC, AC, EV, dan WBS.
+   2. [Analisis Keterlambatan & Critical Path]: Mendeteksi task overdue dan membedah jalur kritis.
+   3. [Analisis Finansial & Nilai CPI]: Menilai efisiensi pengeluaran anggaran proyek.
+   4. [Buat Draf Email ke Klien]: Menyusun draf komunikasi formal dan diplomatis siap salin.
+   5. [Mitigasi Risiko Utama]: Merumuskan rencana tindakan untuk risiko kategori High/Extreme.
+   6. [Usulkan Dekomposisi WBS Baru]: Memberikan struktur rincian kerja 3-tingkat standar PMBOK.
+
+D. CONTOH PERTANYAAN BEBAS YANG BISA DIAJUKAN:
+   Anda dapat mengetik pertanyaan apapun di kotak pesan, misalnya:
+   * "Kenapa proyek ini diprediksi over-budget?"
+   * "Buatkan draf surat peringatan formal ke vendor database yang terlambat 5 hari."
+   * "Bagaimana cara mengejar keterlambatan modul checkout tanpa menambah biaya lembur?"
+   * "Tolong bantu saya memecah fitur baru Sistem Notifikasi WhatsApp ke dalam WBS."
+   * "Berapa rasio efisiensi biaya (CPI) saat ini dan apa artinya bagi direksi?"
+
+E. FITUR SALIN & EKSPOR PERCAKAPAN:
+   - Tombol "Salin" pada setiap tanggapan Copilot memungkinkan pemindahan teks ke email/chat.
+   - Tombol "Ekspor .md" di kanan atas mengunduh seluruh transkrip diskusi ke file Markdown
+     untuk diarsipkan ke Obsidian, Notion, atau dilampirkan pada laporan bulanan.
+   - Tombol "Bersihkan" (ikon tempat sampah) untuk menyegarkan sesi diskusi baru.
+
+================================================================================
+20. PENGATURAN TAMPILAN, AKSEN WARNA & TIPOGRAFI
+================================================================================
+Buka menu "Settings" di sidebar kiri:
+- Mode Gelap / Terang (Dark / Light Theme).
+- Slider Kecerahan Ambience macOS (20% – 90%).
+- 5 Warna Aksen: Cyan/Blue (Default), Emerald Green, Amber Yellow, Crimson Red, Royal Purple.
+- Pengaturan Ukuran Font Dinamis (10px – 20px).
+
+================================================================================
+21. TIPS PRAKTIS & PERTANYAAN UMUM (FAQ)
+================================================================================
+Q1: Apakah data saya akan hilang jika berpindah dari versi Standard ke AI Copilot Edition?
+A1: TIDAK AKAN HILANG. Kedua edisi membaca file database SQLite yang sama di komputer Anda.
+    Anda dapat berganti edisi kapan saja dengan sangat aman.
+
+Q2: Mengapa di Mac muncul tulisan "Project Desk can't be opened because Apple cannot
+    check it for malicious software"?
+A2: Ini adalah proteksi Gatekeeper untuk aplikasi open-source tanpa sertifikat tahunan Apple.
+    Solusinya: Klik kanan pada aplikasi -> pilih "Open" -> lalu klik tombol "Open" di dialog.
+    Anda hanya perlu melakukan langkah ini sekali saja.
+
+Q3: Berapa kebutuhan RAM minimum untuk menjalankan edisi AI Copilot?
+A3: Minimum 8 GB RAM (Rekomendasi 16 GB RAM). Jika komputer Anda memiliki RAM 4 GB,
+    sangat disarankan mengunduh Edisi Standar yang super ringan (~110 MB).
+
+Q4: Apakah Qwen AI Copilot mengirimkan data proyek ke server OpenAI atau China?
+A4: SAMA SEKALI TIDAK. Mesin Qwen di Project Desk berjalan 100% lokal (*offline on-device*).
+    Tidak ada kabel jaringan atau koneksi internet yang dipakai. Data rahasia Anda tetap
+    100% berada di harddisk laptop Anda.
+
+================================================================================
+Widiru Studio — Personal PMO Desktop Engineered for Complete Project Mastery.
+================================================================================

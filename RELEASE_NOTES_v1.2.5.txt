@@ -1,0 +1,180 @@
+================================================================================
+PROJECT DESK — CATATAN RILIS RESMI (RELEASE NOTES)
+Versi: 1.2.5 (Production Release — Standard & AI Copilot Editions)
+Tanggal Rilis : 20 November 2026 (Pemutakhiran Akbar: Qwen AI Copilot Edition)
+Pengembang    : Widiru Studio (Email: widi.raspito@outlook.com)
+Website Resmi : Belum ada website resmi (distribusi resmi hanya via GitHub)
+Repositori Git: https://github.com/widiru83/project-desk-
+Lisensi       : MIT Open Source / Personal PMO Desktop Suite
+================================================================================
+
+IKHTISAR RILIS v1.2.5
+---------------------
+Project Desk versi 1.2.5 menghadirkan tonggak sejarah baru dalam manajemen proyek desktop:
+Kini tersedia dalam DUA PILIHAN EDISI RESMI (Standard Edition & AI Copilot Edition).
+Didukung integrasi mesin kecerdasan lokal **Qwen2.5-1.5B PMO**, pengguna dapat
+berinteraksi dua arah (*two-way conversation*) dengan asisten PMO pribadi untuk konsultasi
+WBS, mitigasi risiko kritis, efisiensi CPI, pembuatan draf komunikasi formal ke klien,
+hingga dekomposisi ruang lingkup secara instan—semuanya berjalan 100% OFFLINE di laptop
+tanpa koneksi internet, tanpa biaya token API, dan tanpa risiko kebocoran data (Zero Cloud).
+
+Rilis ini juga menyempurnakan tata kelola biaya PMBOK, menerapkan mekanisme penghapusan
+aman berbasis Soft Delete dengan jejak audit wajib, mengeliminasi risiko layar putih
+(Blank Screen) secara permanen melalui ErrorBoundary ganda, memperbaiki seluruh 23 temuan
+cacat teknis/keamanan, serta mempertahankan format distribusi Clean Portable ZIP.
+
+================================================================================
+PERBANDINGAN 2 EDISI RILIS & SPESIFIKASI MINIMUM PERANGKAT KERAS (HARDWARE SPECS)
+================================================================================
+
+Tersedia dua varian paket rilis pada versi 1.2.5 yang dapat dipilih sesuai kebutuhan:
+
++----------------------+------------------------------------+---------------------------------------+
+| Parameter            | 1. STANDARD EDITION                | 2. AI COPILOT EDITION (QWEN)          |
++----------------------+------------------------------------+---------------------------------------+
+| Karakteristik        | Super Ringan, Cepat, Hemat Kuota   | Asisten Cerdas Interaktif (Chat LLM)  |
+| Mesin AI             | Heuristic Expert System (PMBOK)    | Hybrid Heuristic + Qwen2.5-1.5B LLM   |
+| Kemampuan AI         | Diagnosis 1-Klik (Health Score,    | Semua fitur Standard + Chat Interaktif|
+|                      | EVM, Deteksi Risiko, Aksi Taktis)  | Draf Email, Auto WBS, Dialog Bebas    |
+| Ukuran Download      | ~105 MB – 118 MB (File .ZIP)       | ~1.2 GB – 1.3 GB (Bundled Model AI)   |
+| Sistem Operasi (OS)  | Windows 10/11 (64-bit)             | Windows 10/11 (64-bit)                |
+|                      | macOS 11+ (Intel & Apple Silicon)  | macOS 12+ (Apple Silicon M1-M4/Intel) |
+|                      | Linux 64-bit (Ubuntu/Debian/dll)   | Linux 64-bit (glibc 2.31+)            |
+| Prosesor (CPU)       | Min: Dual-Core 2.0 GHz             | Min: Quad-Core 2.5 GHz+ (M1/i5/Ryzen5)|
+|                      | Rek: Quad-Core 2.5 GHz             | Rek: 8-Core (Apple Silicon M-Series)  |
+| Memori RAM (MINIMUM) | MINIMUM: 4 GB RAM                  | MINIMUM: 8 GB RAM                     |
+| Memori RAM (REKOMEND)| REKOMENDASI: 8 GB RAM              | REKOMENDASI: 16 GB RAM                |
+| Ruang Disk Bebas     | 500 MB ruang kosong                | 3.0 GB ruang kosong                   |
+| Akselerasi Grafis    | Standar CPU                        | Mendukung Metal (Mac) & CPU Threads   |
+| Akses Internet       | 100% Offline (Tidak Butuh Internet)| 100% Offline On-Device (Zero Cloud)   |
+| Cocok Untuk          | Laptop kantor standar, PM lapangan,| PM Profesional, Lead Engineer, Direksi|
+|                      | kuota terbatas, efisiensi tinggi   | yang butuh asisten analisis interaktif|
++----------------------+------------------------------------+---------------------------------------+
+
+================================================================================
+FITUR BARU UNGGULAN: QWEN AI COPILOT (EDISI COPILOT)
+================================================================================
+
+1. Asisten PMO Percakapan Dua Arah (Conversational PMO Copilot):
+   - Hadir menu navigasi baru "AI Copilot (Qwen)" langsung di sidebar aplikasi.
+   - Pengguna dapat mengajukan pertanyaan bebas dalam bahasa Indonesia maupun Inggris mengenai:
+     * Kondisi keterlambatan WBS dan aktivitas di jalur kritis (*Critical Path / CPM*).
+     * Analisis anggaran, realisasi biaya aktual, dan nilai efisiensi pengeluaran (CPI/CV).
+     * Evaluasi tingkat keparahan risiko dan strategi respon (Avoid, Mitigate, Transfer, Accept).
+     * Dampak persetujuan Change Request terhadap jadwal dan pagu anggaran.
+
+2. Pembuat Draf Komunikasi Resmi Instan (Smart Auto-Drafting):
+   - Menghasilkan draf email resmi dan surat eskalasi stakeholder siap kirim.
+   - Kalimat dirumuskan secara diplomatis dan profesional dengan menyertakan data riil proyek
+     secara otomatis (nama proyek, kode WBS, persentase kemajuan, alasan deviasi).
+
+3. Usulan Dekomposisi WBS Otomatis (Auto-Decompose WBS):
+   - Memberikan rekomendasi struktur rincian kerja 3-tingkat mematuhi aturan baku 100% Rule PMBOK.
+   - Lengkap dengan estimasi durasi hari kerja, alokasi jam orang (*effort hours*), dan
+     penempatan gerbang Milestone 0 hari sebagai titik persetujuan (*gate review*).
+
+4. Tombol Aksi Cepat (Quick Prompt Chips):
+   - Tersedia 6 tombol pintas satu-klik di antarmuka Copilot:
+     1. [Ringkasan Eksekutif & Health Check]
+     2. [Analisis Keterlambatan & Critical Path]
+     3. [Analisis Finansial & Nilai CPI]
+     4. [Buat Draf Email ke Klien]
+     5. [Mitigasi Risiko Utama]
+     6. [Usulkan Dekomposisi WBS Baru]
+
+5. Ekspor & Portabilitas Percakapan:
+   - Tombol satu-klik "Ekspor .md" untuk mengunduh seluruh transkrip diskusi ke format Markdown.
+   - Tombol "Salin" pada setiap tanggapan Copilot untuk memudahkan transfer ke dokumen lain.
+   - Penyimpanan riwayat obrolan aman per proyek di media lokal komputer pengguna.
+
+================================================================================
+DAFTAR PERUBAHAN & PENYEMPURNAAN LENGKAP DARI VERSI 1.2.4
+================================================================================
+
+1. RESOLUSI CACAT TEKNIS & INTEGRITAS SISTEM (DEFECT RESOLUTIONS)
+-----------------------------------------------------------------
+- Perbaikan Kueri Risiko Terbuka (Open Risks Count Query):
+  Kueri ringkasan portofolio diperbaiki menjadi (status IS NULL OR status != 'CLOSED'),
+  sehingga seluruh risiko aktif terhitung dengan presisi.
+- Penyempurnaan Penyimpanan Tugas (tasks:update):
+  Menyimpan penuh atribut tipe item (itemType), penanda milestone (isMilestone), dan
+  penanda pekerjaan tidak terencana (isUnplanned) ke database SQLite tanpa ada field yang hilang.
+- Koreksi Skema & Migrasi Mandiri Indikator & Manfaat:
+  Menambahkan kolom "current_realized_value" pada tabel "business_indicators" dan kolom
+  "indicator_id" pada tabel "benefit_records" dengan migrasi mandiri otomatis.
+- Pendaftaran Lengkap Handler IPC:
+  Menambahkan seluruh implementasi handler yang sebelumnya kosong ("modules:update",
+  "workLogs:listByTask", "copilot:getStatus", "copilot:query") di electron/main.ts.
+- Tombol Mulai Timer Langsung (Live Timer Start UI):
+  Menambahkan tombol "Mulai Timer" langsung pada Header atas aplikasi lengkap dengan modal
+  pemilihan Resource, Tugas, dan Kode Aktivitas.
+- Antarmuka CRUD Lengkap untuk Manajemen Risiko:
+  Menambahkan modal Edit Risiko terpadu, tombol Hapus Risiko berkonfirmasi, dan selektor
+  Cepat Penggantian Status langsung pada tabel Register Risiko.
+- Penguatan Keamanan Otentikasi (Penutupan Celah Password Default):
+  Menghilangkan celah bypass password bawaan ('pmo2026password' / 'admin'). Sistem secara
+  mutlak hanya memvalidasi hash kriptografis PBKDF2 dari password kustom pengguna.
+
+2. RESOLUSI PERMANEN LAYAR PUTIH (BLANK SCREEN) & ERROR BOUNDARY
+---------------------------------------------------------------
+- Schema Guard & Null-Safety: Menghindari error runtime TypeError akibat cache usang di localStorage.
+- React <ErrorBoundary>: Komponen pembungkus lapis pelindung ganda yang mencegah layar putih total
+  jika terjadi kendala tak terduga.
+
+3. TATA KELOLA BIAYA PMBOK (COST MANAGEMENT & REVISION LEDGER)
+--------------------------------------------------------------
+- Tombol "Set Anggaran (BAC)": Penetapan pagu baseline disetujui langsung dari antarmuka.
+- Cadangan Kontingensi & Overhead: Mendukung pengisian persentase cadangan risiko dan markup overhead.
+- Buku Besar Revisi (Budget Revision Ledger): Setiap perubahan baseline anggaran otomatis tercatat
+  lengkap dengan nomor revisi, tanggal, pihak penyetujui, dan justifikasi bisnis.
+- Basis Tarif Fleksibel (Rate Basis): Pilihan basis tarif Per Jam (Hourly), Per Hari (Daily),
+  dan Biaya Borongan Tetap (Fixed Contract Cost) untuk subkontrak/vendor.
+
+4. SOFT DELETE TRANSAKSI BIAYA DENGAN JEJAK AUDIT WAJIB
+-------------------------------------------------------
+- Kewajiban Alasan Pembatalan: Modal wajib mengisi alasan sebelum menghapus transaksi biaya.
+- Status CANCELLED: Data dipindahkan ke tab riwayat audit tanpa merusak kalkulasi EAC.
+- Tombol Pulihkan (Restore): Satu klik untuk mengembalikan transaksi yang pernah dibatalkan.
+
+5. DISTRIBUSI CLEAN PORTABLE ZIP: ZERO FALSE POSITIVE
+-----------------------------------------------------
+- Format Utama .ZIP: Ekstraksi bersih tanpa pembongkaran sementara ke %TEMP%, 100% bebas dari
+  salah deteksi antivirus Windows Defender & Gatekeeper macOS.
+- Mode Portabel USB: Database tersimpan mandiri di sebelah aplikasi pada folder "project-desk-data".
+
+================================================================================
+VERIFIKASI PENGUJIAN KUALITAS (TEST SUMMARY)
+================================================================================
+Seluruh 57/57 skenario pengujian otomatis lulus 100% pada lingkungan native:
+- 17 Kasus Uji Penerimaan Matematika & Keamanan Domain (acceptanceTests.test.mjs)
+- 10 Kasus Uji Integritas SQLite Native, Migrasi v1-v7, & Skalabilitas (sqliteIntegration.test.mjs)
+- 18 Kasus Uji Matriks CRUD & Resolusi Cacat (crudMatrixSIT.test.mjs)
+- 10 Kasus Uji Kecerdasan & Integrasi Qwen AI Copilot (copilotSIT.test.mjs)
+- 2 Kasus Uji Validasi Skema Cache AI & Error Boundary (cacheValidation.test.mjs)
+- Skalabilitas: Penyisipan 20 proyek dan 5.000 work items tuntas dalam 31 ms!
+
+================================================================================
+CARA MENGUNDUH & MEMPERBARUI
+================================================================================
+Unduh paket rilis resmi v1.2.5 langsung dari GitHub Releases:
+https://github.com/widiru83/project-desk-/releases/tag/v1.2.5
+
+Paket Rilis yang Tersedia:
+A. EDISI STANDAR (Ringan ~110 MB - Heuristic Local AI):
+   - Windows : Project.Desk-1.2.5-win.zip
+   - macOS   : Project-Desk-1.2.5-arm64-mac.zip
+   - Linux   : Project-Desk-1.2.5-linux-x64.zip
+
+B. EDISI AI COPILOT (Lengkap ~1.3 GB - Embedded Qwen2.5-1.5B PMO LLM):
+   - Windows : Project.Desk-1.2.5-AI-win.zip
+   - macOS   : Project-Desk-1.2.5-AI-arm64-mac.zip
+   - Linux   : Project-Desk-1.2.5-AI-linux-x64.zip
+
+Kontak & Umpan Balik:
+- Email Pengembang : widi.raspito@outlook.com
+- Catatan Website  : Widiru Studio saat ini belum memiliki website resmi. Saluran resmi
+  informasi, distribusi rilis, dan pelaporan isu hanya melalui repositori GitHub resmi.
+
+================================================================================
+Widiru Studio — Personal PMO Desktop Engineered for Complete Project Mastery.
+================================================================================
