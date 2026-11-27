@@ -1,8 +1,13 @@
 # Project Desk (WIDIRU STUDIO)
 
-**Personal PMO Desktop: Implementation, Operations & Business Value**  
-*Versi:* 1.2.5 (20 November 2026 — Standard & AI Copilot Editions) | *Standar:* PMBOK Guide 6th Edition Fully Compliant  
-*Distribusi Resmi:* 100% Clean Portable `.ZIP` (Windows, macOS Apple Silicon, Linux)
+**Personal PMO Suite: Implementation, Operations & Business Value (100% Gratis & Full Fitur — Tanpa Versi Pro/Premium)**  
+*Versi:* **1.3.3** (27 November 2026) | *Standar:* PMBOK Guide 6th Edition Fully Compliant  
+*Platform:* **Desktop (Windows, macOS, Linux)** · **Chrome Extension v1.3.3** · **Web Demo**
+
+- 🌐 **Web Demo:** https://widiru83.github.io/project-desk-demo/
+- 📥 **Halaman Unduhan Desktop:** https://widiru83.github.io/project-desk-/
+- 🧩 **Chrome Web Store:** https://chromewebstore.google.com/detail/fjcpjpepgojokomlmgfnakkgmkmibclp
+- 📄 **Catatan Rilis v1.3.3:** [RELEASE_NOTES_v1.3.3.txt](./RELEASE_NOTES_v1.3.3.txt) · **Panduan Pengguna:** [USER_GUIDE.txt](./USER_GUIDE.txt)
 
 Aplikasi desktop personal PMO & operasional modern berbasis **Electron + React 19 + TypeScript + Native SQLite (`better-sqlite3`) + Tailwind CSS v4**. Dilengkapi asisten cerdas lokal **Qwen2.5-1.5B PMO**, dirancang khusus untuk project manager, engineering lead, dan konsultan independen yang membutuhkan sistem perencanaan jadwal, pelacakan operasional, manajemen biaya, realisasi manfaat bisnis, dan kepatuhan aset dalam satu aplikasi mandiri yang 100% offline-first tanpa ketergantungan server atau biaya langganan.
 

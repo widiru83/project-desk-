@@ -1,0 +1,41 @@
+================================================================================
+PROJECT DESK — RELEASE NOTES v1.3.3 (FREE & FULL EDITION)
+================================================================================
+Tanggal Rilis  : 27 November 2026
+Pengembang     : Widiru Studio (widiru83)
+Lisensi        : 100% Gratis & Full Fitur (Tanpa versi Pro / Premium / Langganan)
+Platform       : Desktop (Windows x64, macOS arm64, Linux x64),
+                 Chrome Extension v1.3.3, & Web Demo
+
+================================================================================
+1. PEMBARUAN UTAMA DI v1.3.3
+================================================================================
+- Google Drive Auto-Backup & Restore (Lintas Perangkat):
+  * Desktop (macOS, Windows, Linux): Login Google OAuth langsung via browser
+    sistem + backup/restore snapshot SQLite (.sqlite3) ke folder
+    "Project Desk Backups/project_desk_desktop_backup.sqlite3".
+  * Chrome Extension & Web Demo: Cukup masukkan Gmail (opsional) dan klik
+    "Connect Google Drive" tanpa konfigurasi teknis Client ID.
+  * Mendukung mode Manual, By Action (otomatis 15 detik setelah perubahan),
+    serta Periodik (15 menit, 1 jam, 6 jam, 24 jam).
+- Backup & Restore File Lokal (.json) untuk Web Demo & Chrome Extension:
+  * Unduh snapshot JSON langsung ke folder Downloads.
+  * Restore dari file .json lokal maupun file project_desk_backup.json
+    yang diunduh manual dari Google Drive.
+- Jira Cloud Auto-Sync yang Lebih Mudah:
+  * Tersedia tautan langsung "Buat API Token" menuju halaman keamanan
+    Atlassian di modal Smart Importer.
+  * Auto-Sync API berjalan penuh di Desktop & Chrome Extension.
+- 100% Free & Full Edition:
+  * Seluruh modul PMO (WBS, Gantt CPM, Kurva S EVM, Biaya, Risiko, Aset,
+    Change Request, SLA, Smart Importer, & AI Copilot Offline) terbuka penuh
+    tanpa pembatasan Pro/Premium.
+
+================================================================================
+2. TAUTAN RESMI
+================================================================================
+- Web Demo         : https://widiru83.github.io/project-desk-demo/
+- Halaman Unduhan  : https://widiru83.github.io/project-desk-/
+- Chrome Extension : https://chromewebstore.google.com/detail/fjcpjpepgojokomlmgfnakkgmkmibclp
+- GitHub Releases  : https://github.com/widiru83/project-desk-/releases/tag/v1.3.3
+================================================================================

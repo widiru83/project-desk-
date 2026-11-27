@@ -1,10 +1,12 @@
 ================================================================================
 PROJECT DESK — PANDUAN PENGGUNA RESMI (USER GUIDE)
-Versi Aplikasi: 1.2.5 (Production Release — Standard & AI Copilot Editions)
-Tanggal Rilis : 20 November 2026 (Pemutakhiran Akbar: Qwen AI Copilot Edition)
+Versi Aplikasi: 1.3.3 (Free & Full Edition — Tanpa Versi Pro/Premium)
+Tanggal Rilis : 27 November 2026
 Pengembang    : Widiru Studio (Email: widi.raspito@outlook.com)
-Website Resmi : Belum ada website resmi (seluruh rilis resmi hanya via GitHub)
-Platform      : Windows 10/11 (Portable), macOS Apple Silicon (arm64), Linux (x64)
+Website Resmi : https://widiru83.github.io/project-desk-/
+Web Demo      : https://widiru83.github.io/project-desk-demo/
+Chrome Ext    : https://chromewebstore.google.com/detail/fjcpjpepgojokomlmgfnakkgmkmibclp
+Platform      : Windows 10/11 (Portable), macOS Apple Silicon (arm64), Linux (x64), Chrome Extension, Web Demo
 Arsitektur    : 100% Offline-First Desktop PMO Suite (Native SQLite WAL)
 Standar Acuan : PMBOK Guide 6th Edition Fully Compliant
 ================================================================================
@@ -339,4 +341,29 @@ A4: SAMA SEKALI TIDAK. Mesin Qwen di Project Desk berjalan 100% lokal (*offline 
 
 ================================================================================
 Widiru Studio — Personal PMO Desktop Engineered for Complete Project Mastery.
+================================================================================
+
+
+================================================================================
+FITUR BARU v1.3.3 — CLOUD BACKUP, RESTORE LOKAL, & JIRA SYNC
+================================================================================
+- 100% Gratis & Full Fitur: Tidak ada versi Pro atau Premium; semua fitur
+  aktif penuh di Desktop (Windows/macOS/Linux), Chrome Extension, & Web Demo.
+- Google Drive Auto-Backup & Restore (Menu Data & Backup):
+  1. Masukkan email Gmail Anda (opsional) lalu klik "Connect Google Drive".
+  2. Pilih frekuensi: Manual Saja, By Action (otomatis 15 detik setelah ubah
+     data), atau Periodik (15 menit, 1 jam, 6 jam, 24 jam).
+  3. Di Desktop tersimpan sebagai project_desk_desktop_backup.sqlite3; di
+     Chrome Extension & Web Demo sebagai project_desk_backup.json.
+  4. Untuk pindah laptop atau setelah clear cache browser, cukup hubungkan
+     Google Drive kembali lalu klik "Restore dari Drive".
+- Backup & Restore File Lokal (.json) di Browser/Extension:
+  * Klik "Backup ke Downloads" untuk menyimpan salinan .json ke komputer.
+  * Klik "Restore dari File (.json)" untuk memulihkan data dari file .json
+    lokal maupun file project_desk_backup.json yang diunduh dari Google Drive.
+- Jira Cloud Auto-Sync (Smart Importer -> tab Jira Cloud Auto-Sync):
+  * Klik tautan "Buat API Token" di sebelah kolom Jira API Token untuk membuat
+    token di Atlassian, lalu klik "Simpan & Sync Sekarang dari Jira".
+  * Catatan: Auto-Sync API langsung berjalan penuh di Desktop & Chrome
+    Extension; di Web Demo gunakan tab "Upload File (Excel / CSV / Jira Export)".
 ================================================================================
