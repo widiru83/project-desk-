@@ -4,7 +4,7 @@
 *Versi:* **1.3.3** (27 November 2026) | *Standar:* PMBOK Guide 6th Edition Fully Compliant  
 *Platform:* **Desktop (Windows, macOS, Linux)** · **Chrome Extension v1.3.3** · **Web Demo**
 
-- 🌐 **Web Demo:** https://widiru83.github.io/project-desk-demo/
+- 🌐 **Project Desk Web Edition:** https://widiru83.github.io/project-desk-demo/
 - 📥 **Halaman Unduhan Desktop:** https://widiru83.github.io/project-desk-/
 - 🧩 **Chrome Web Store:** https://chromewebstore.google.com/detail/fjcpjpepgojokomlmgfnakkgmkmibclp
 - 📄 **Catatan Rilis v1.3.3:** [RELEASE_NOTES_v1.3.3.txt](./RELEASE_NOTES_v1.3.3.txt) · **Panduan Pengguna:** [USER_GUIDE.txt](./USER_GUIDE.txt)
